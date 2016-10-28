@@ -16,4 +16,7 @@ $(document).ready(function() {
 
   $(".inner-p").parent().siblings().last().children().css("background-color", "olive");
 
+  console.log("testing!");
 });
+
+console.log('not ready');
