@@ -18,3 +18,5 @@ $(document).ready(function() {
 
   console.log("testing!");
 });
+
+console.log('not ready');
