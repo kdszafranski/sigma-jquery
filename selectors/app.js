@@ -18,5 +18,3 @@ $(document).ready(function() {
 
 
 });
-
-console.log('not ready');
