@@ -1,42 +1,22 @@
 $(document).ready(function() {
-  console.log('First?');
+  console.log("ready to go");
 
-  // Class and ID
-  $('#example').css('background-color', 'yellow');
-  $('.inner-list').css('background-color', 'red');
+  // id
+  // $("ul").first().css("background-color", "pink");
+  // $("ul").last().css("background-color", "green");
 
-  // Getter/Setter
-  console.log('Original H1 Text: ', $('h1').text());
-  // $('h1').text('Hello Cohort!');
+  // $(".inner-p").parent().siblings().children().css("background-color", "teal");
 
-  // Direct Descendants
-  // $('div > h2').css('background-color', 'purple');
+  // $("li:odd").css("background-color", "purple");
 
-  // Multiple selections
-  // $('.my-list li p, #example li p').css('background-color', 'pink');
+  // class
+  // $(".inner-p").css("background-color", "blue");
 
-  // Find
-  // $('li').find('p').css('background-color', 'orange');
-  // $('li').find('p').css('display', 'none');
+  // $(".my-list").children().find("li:odd").children().css("background-color", "magenta");
 
-  // Traversal: First and Last
-  // $('ul').first().css('background-color', 'pink');
-  // $('ul').last().css('background-color', 'peachpuff');
-
-  // Traversal: Dynamic and Relative positions, .parent(), .sibling(), .children(), .next(), .closest()
-
-  // Method Chaining
-  // $('.inner-p').parent().parent().css('background-color', 'blue');
-  // $('.my-list p').last().parent().css('background-color', 'peachpuff');
-
-  // Pseudo Selectors
-  // $('p:even').css('background-color', 'green');
-
-  // Filtering
-  // $('li').filter(':even').css( 'background-color', 'red' );
-
+  $(".inner-p").parent().siblings().last().children().css("background-color", "olive");
 
 
 });
 
-console.log('When does this happen?');
+console.log('not ready');
